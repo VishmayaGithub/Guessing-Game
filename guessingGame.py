@@ -9,9 +9,9 @@ for numberOfGuesses in range(1,6):
     guess = int(input("Enter Your guess : "))
     
     if(guess<random):
-        print("Your guess is bigger than ",guess)
+        print("I am thinking of a number bigger than ",guess)
     elif(guess>random) :
-        print("Your guess is smaller than",guess)   
+        print("I am thinking of a number smaller than",guess)   
     else:  break    
 
 if(guess==random):
